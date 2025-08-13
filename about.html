@@ -10,9 +10,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f04a6538ba.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Learn about Lawrencia</title>
 </head>
 <body>
+        <div class="container">
+        <nav class="d-flex justify-content-between">
+        <a href="/" title="homepage">
+        <img src="images/logo.png" class="logo d-none d-md-block " alt="Lawrencia logo">
+        <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="Lawrencia logo">
+        </a>
+        <ul>
+            <li>
+                <a href="/" title="home page">Home</a>
+            </li>
+            <li class="active">
+                <a href="/about.html" title="about page">About</a></li>
+            <li>
+                <a href="/work.html" title="work page">Work</a></li>
+            <li>
+                <a href="/contact.html" title="contact page">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+
+
     <div class="content-container container">
         <div class="row">
             <div class="col-lg-6">
@@ -20,12 +41,39 @@
             <h1 class="mt-5">I am Lawrencia Kyei Baffour</h1>
             <h2 class="mt-5">Frontend Developer, based in Ghana.</h2>
             <p class="mb-5">For anyone who wants to start learning code, this workshop is very interesting. You will be challenged  with different exercises, and everything is well explained, homework and deadlines are good for keep focus</p>
-            <a href="" class="btn btn-branding">See my projects</a></div></div>
+            <a href="/work.html" class="btn btn-branding">See my projects</a></div></div>
            <div class="col-lg-6">
             <img src="images/linkdinProfile.jpeg" 
-            alt="" 
+            alt="Lawrencia's linkdin Profile picture" 
             class="img-fluid"></div> 
         </div>
     </div>
+     <footer class="container">
+
+            <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                <h3>Work Inquiry</h3>
+                <p class="text-muted">Let's work together</p>
+                </div>
+                <div>
+                <a href="/contact.html" class="btn btn-branding" title="contact Lawrencia">Contact me</a>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:kyeibaffourcia@gmail.com" class="email-link">kyeibaffourcia@gmail.com</a></div>
+            <div class="social-links d-flex justify-content-center">
+                <a href="https://www.Instagram.com/txt_bighit" target="_blank" title="instagram profile">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.github.com/cia-17" target="_blank" title="github profile">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.Facebook.com/txt_bighit" target="_blank" title="facebook profile">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <p class="text-center mt-5">This project was coded by Lawrencia Kyei and is <a href="https://github.com/Cia-17/portfolio-project" target="_blank">open sourced</a></p>
+        </footer>
 </body>
 </html>
